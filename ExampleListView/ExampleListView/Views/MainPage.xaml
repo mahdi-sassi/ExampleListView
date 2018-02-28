@@ -14,8 +14,11 @@
             <DataTemplate>
                 <ViewCell>
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="{Binding Name}" />
-                        <Label Text="{Binding Departement}" />
+                        <Image Source="{Binding image}" />
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Departement}" />
+                        </StackLayout>
                     </StackLayout>
                 </ViewCell>
             </DataTemplate>

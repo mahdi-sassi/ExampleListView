@@ -14,13 +14,25 @@ namespace ExampleListView.Services
                 new Employee
                 {
                     Name="Mohamed",
-                    Departement="Backend" },
+                    Departement="Backend",
+                    image="user.svg",
+                    PassWord="Backend",
+                    UserName="Mohamed"
+                },
                   new Employee{
                     Name="Refka",
-                    Departement="FrontEnd" },
+                    Departement="FrontEnd",
+                    image ="user.svg",
+                    PassWord="FrontEnd",
+                    UserName="Refka"
+                  },
                    new Employee{
                     Name="Aiman",
-                    Departement="Services" },
+                    Departement="Services",
+                    image="user.svg",
+                    PassWord="Services",
+                    UserName="Aiman"
+                   },
             };
             return list;
         }
